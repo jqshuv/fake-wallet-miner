@@ -12,7 +12,7 @@ async function main() {
     while (isContinuing === true) {
         await sleep(5)
 
-        const randomInt = crypto.randomInt(50,300)
+        const randomInt = crypto.randomInt(0,300)
 
         if (randomInt <= 1) {
             let randomBitcoinValue = crypto.randomInt(1,100)/100
